@@ -363,7 +363,7 @@ impl<S: State> Executable<S> for L1HandlerTransaction {
 pub struct DeployTransaction {
     pub tx: starknet_api::transaction::DeployTransaction,
     pub tx_hash: TransactionHash,
-    pub contract_address: ContractAddress,
+    //pub contract_address: ContractAddress,
 }
 
 impl DeployTransaction {
