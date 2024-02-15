@@ -5,6 +5,7 @@ use strum_macros::EnumIter;
 pub enum TransactionType {
     Declare,
     DeployAccount,
+    Deploy,
     InvokeFunction,
     L1Handler,
 }
